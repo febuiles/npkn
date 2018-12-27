@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="We make visual books so everyone can understand the technologies and concepts shaping the 21st century.">
+  <meta name="keywords" content="Napkin,Bitcoin,Ethereum,Blockchain,Machine Learning,Artificial Intelligence,Virtual Reality,Data Science">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Napkin</title>
+  <link rel="icon" type="image/png" href="img/logo-sm.png">
+  <link rel="stylesheet" href="css/vendor/bulma.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.typekit.net/mmv8ufj.css">
+</head>
+<body>
+  <div class="napkin-container">
+    <div class="columns is-gapless is-multiline">
+      <!-- introduction -->
+      <div class="column is-7">
+        <div class="intro">
+          <div>
+            <a href="/" class="brand">
+              <img src="img/logo-lg.png" alt="Napkin logo">
+            </a>
+
+            <!-- site description -->
+            <div class="intro-description">
+              We make visual books so everyone can
+              <br class="hidden-mobile hidden-big-tablet">
+              understand the technologies and concepts
+              <br class="hidden-mobile hidden-big-tablet">
+              shaping the 21st century.
+            </div>
+            <!-- end site description -->
+          </div>
+
+          <!--everything inside this element's `.content` div is collapsed on mobile devices -->
+          <div class="collapsible">
+            <div class="content">
+              <!-- site links -->
+              <div class="links">
+                <div class="link">
+                  <a href="https://www.amazon.com/Bitcoin-napkin-Daniel-Gutierrez/dp/9585976803" class="link" target="_blank">Buy our first book.</a>
+                </div>
+                <div class="link">
+                  <a href="https://www.kickstarter.com/projects/napkinbooks/bitcoin-on-a-napkin-the-illustrated-book/" class="link" target="_blank">Explore the campaign.</a>
+                </div>
+                <div class="link">
+                  <a href="https://www.youtube.com/watch?v=PYbbs2EbAY8" class="link" target="_blank">Watch the making-of.</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link">Contact us.</a>
+                </div>
+              </div>
+              <!-- end site links -->
+
+              <!-- site footer -->
+              <div class="intro-footer">
+                A joint-venture by <a href="http://oficiosvarios.co/" target="_blank">OV</a> &amp; <a href="http://mheroin.com/" target="_blank">Federico</a>.
+              </div>
+              <!-- end site footer -->
+            </div>
+            <div class="collapsible-trigger" data-closed-html="<span class='text-underline'>More</span> (+)" data-opened-html="<span class='text-underline'>Less</span> (-)">
+              <span class="text-underline">More</span> (+)
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end introduction -->
+
+      <!-- books -->
+      <div class="column is-5 books books-dynamic-height">
+        <div class="columns is-gapless is-mobile is-marginless">
+
+          <!-- `data-short-name` data attribute specifies what the page title should change to when that book is opened/clicked -->
+
+          <!-- `.text-heavy > .short-name` element specifies what the name should change to when the collapsible is open -->
+
+          <!-- `.long-name > (.hidden-mobile, .shown-mobile)` specify what books with long names (like Artificial Intelligence -> AI) should change their names to on mobile devices. It is strongly recommended to specify a short name for >1 word names.
+
+            `.hidden-mobile` and `.shown-mobile` can also be used for specifying different book descriptions for different devices.
+          -->
+
+          <!-- bitcoin -->
+          <div class="book-container column bg-yellow">
+            <!-- book -->
+            <div class="book" data-short-name="BTC">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">BTC</span>
+                  <span class="long-name">Bitcoin</span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-yellow">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Bitcoin</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close">&#x2715;</span>
+                </div>
+              </div>
+
+              <div class="book-description">
+                An illustrated book that will walk you through Bitcoin and how it works, it uses even a bit of history on digital money.
+
+                <img src="img/btc.png" class="is-fullwidth" alt="Bitcoin">
+              </div>
+
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Get the book: <span class="text-light">Hardcover</span>
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Get the ebook: <span class="text-light">PDF</span>
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-darkerblue text-white is-fullwidth">
+                  Customize edition: <span class="text-light">Contact us</span>
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end bitcoin -->
+
+          <!-- ethereum -->
+          <div class="book-container column bg-purple">
+            <!-- book -->
+            <div class="book" data-short-name="ETH">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">ETH</span>
+                  <span class="long-name">Ethereum</span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-purple text-white">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Ethereum</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close light">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description text-white">
+                <p class="hidden-mobile">
+                  An illustrated book about Ethereum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for September 2018.</strong>
+                  <br clear="shown-mobile">
+                  It will be part of our New Economy series - get started with <a href="#">Bitcoin on a napkin</a>.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end ethereum -->
+
+          <!-- blockchain -->
+          <div class="book-container column bg-orange">
+            <!-- book -->
+            <div class="book" data-short-name="Blockchain">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">BC</span>
+                  <span class="long-name">Blockchain</span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="/img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-orange">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Blockchain</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description">
+                <p>
+                  An illustrated book about Blockchain. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for December 2018.</strong>
+                  It will be part of our New Economy series - get started with <a href="#">Bitcoin on a napkin</a>.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end blockchain -->
+
+          <!-- machine learning -->
+          <div class="book-container column bg-blue">
+            <!-- book -->
+            <div class="book" data-short-name="ML">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">ML</span>
+                  <span class="long-name">
+                    <span class="hidden-mobile">Machine Learning</span>
+                    <span class="shown-mobile">ML</span>
+                  </span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-blue">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Machine Learning</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description">
+                <p>
+                  An illustrated book about Machine Learning. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for March 2019.</strong><br>
+                  It will be part of the upcoming Augmented Thought series.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end machine learning -->
+
+          <!-- artificial intelligence -->
+          <div class="book-container column bg-pink">
+            <!-- book -->
+            <div class="book" data-short-name="AI">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">AI</span>
+                  <span class="long-name">
+                    <span class="hidden-mobile">Artificial Intelligence</span>
+                    <span class="shown-mobile">AI</span>
+                  </span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-pink">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Artificial Intelligence</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description">
+                <p>
+                  An illustrated book about Artificial Intelligence. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for June 2019.</strong>
+                  It will be part of the upcoming Augmented Thought series.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end artificial intelligence -->
+
+          <!-- virtual reality -->
+          <div class="book-container column bg-green">
+            <!-- book -->
+            <div class="book" data-short-name="VR">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">VR</span>
+                  <span class="long-name">
+                    <span class="hidden-mobile">Virtual Reality</span>
+                    <span class="shown-mobile">VR</span>
+                  </span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-green">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Virtual Reality</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description">
+                <p>
+                  An illustrated book about Virtual Reality. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for September 2019.</strong>
+                  It will be part of the upcoming Augmented Thought series.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end virtual reality -->
+
+          <!-- data science -->
+          <div class="book-container column bg-darkblue">
+            <!-- book -->
+            <div class="book" data-short-name="DS">
+              <div class="book-title">
+                <span class="text-heavy">
+                  <span class="short-name">DS</span>
+                  <span class="long-name">
+                    <span class="hidden-mobile">Data Science</span>
+                    <span class="shown-mobile">DS</span>
+                  </span>
+                </span>
+                <span class="text-light">on a napkin</span>
+              </div>
+              <div>
+                <img src="img/logo-sm.png" class="book-logo">
+              </div>
+            </div>
+            <!-- end book -->
+
+            <!-- book details -->
+            <div class="book-details bg-darkblue text-white">
+              <div class="book-header">
+                <div>
+                  <div class="book-title text-heavy">Data Science</div>
+                  <div class="book-subtitle text-light">on a napkin</div>
+                </div>
+                <div>
+                  <span class="book-close light">&#x2715;</span>
+                </div>
+              </div>
+              <div class="book-description text-white">
+                <p>
+                  An illustrated book about Data Science. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita et, officiis. Est incidunt accusantium.
+                </p>
+                <p>
+                  <strong>This title is in our plans for November 2019.</strong>
+                  It will be part of the upcoming Augmented Thought series.
+                </p>
+              </div>
+              <div class="book-footer has-text-left">
+                <a target="_blank" href="#" class="btn-buy btn bg-red text-white is-fullwidth">
+                  Sign up for preorder
+                </a>
+                <a target="_blank" href="#" class="btn-buy bg-skyblue text-black is-fullwidth">
+                  Suggest an idea
+                </a>
+              </div>
+            </div>
+            <!-- end book details -->
+          </div>
+          <!-- end data science -->
+
+        </div>
+
+        <!-- this element is used to show the book details -->
+        <div class="current-book-description-holder"></div>
+      </div>
+      <!-- end books -->
+    </div>
+  </div>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
